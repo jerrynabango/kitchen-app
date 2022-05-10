@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+@font-face{
+  font-family: 'hothamFont';
+  src: url(../fonts/HothamFreeDemo-L380G.ttf)
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    scroll-behavior: smooth;
+  }
+
+  .padding{
+    padding-bottom: 2em;
+  }
+  
+  .welcome{
+    width: 75%;
+    margin: 0% auto;
+    padding-top: 2em;
+  }
+  
+  .welcome hr{
+    border-top: 4px white solid;
+    width: 95%;
+    margin-top: .3em;
+    margin-bottom: 1em;
+  } 
+
+  .hr-black hr{
+    border-top: 2px #b4b4b4 solid;      
+  }
+
+  #footr{
+    font-family: hothamFont;
+    font-size: xx-large;
+  } 
+  
+  .form-group{    
+    line-height: 0%;
+  }
+
+  #myForm input{
+    color: black;
+  }  
+
+  #deliveryForm input{
+    color: black;
+  }
+  
+  .meal-design-form{
+    background-color: #f4f4f4;
+    padding: 2em;
+    margin-top: 1em;
+  }
+
+  .form-buttons{
+    background-color: #f4f4f4;
+    padding: 2em;
+  }
+
+  .removeOrder{
+    cursor: pointer;
+  }
+
+  .removeOrder:hover{
+    color: brown;
+  }
+
+  label{
+    padding-left: 0.5em;
+  }
+  
+  .yourOrder{
+    display: none;
+  }
+
+  .yourOrder p{
+    font-style: italic;
+  }
+
+  .order-bg-color{
+    background-color: lightgray;      
+    padding: 1em;
+    height: 100%;
+    position: relative;
+  }
+
+  .padTop{
+    margin-top: 1em;
+  }
+
+  #orderTotals{
+    font-size: 1.5em;    
+  }
+
+  .grand-total{
+    font-size: 1.8em;    
+  }
+
+  .bottom-align{
+    position: absolute;
+    bottom: 0em;
+  }
+
+  .offset:before {
+    display: block;
+    content:"";
+    height: 4rem;
+    margin-top: -4rem;
+}
+/*--- Nav Section ---*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+    color: white;
+}
+.navbar-brand img {
+    height: 2rem;
+}
+.navbar-nav li {
+    padding-right: .7rem;
+    text-decoration: none;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: gold;
+}
+.home-inner {
+    background-image: url(img/burger-and-vegetables-placed-on-brown-wood-surface-1565982.jpg);
+}
+.home-inner1 {
+    background-image: url(img/image-asset.);
+}
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.caption h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: .3rem;
+    color: gold;
+}
+.caption p {
+    font-size: 1.4rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+    color: red;
+}
+#state {
+    font-weight: bolder;
+    font-style: italic;
+    font-family: cursive;
+    text-shadow: 0 0 10px #CB4335;
+}
+.btn-secondary {
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: .6rem 1.2rem;
+    margin: 1rem;
+    color: black;
+    background-color: yellow;
+    border-color: red;
+}
+.btn-secondary:hover {
+    color: white;
+    background-color: red;
+    border-color: yellow;
+}
+.col-md-12 {
+    margin: 1.5rem;
+    padding-top: 2rem;
+}
+.col-md-12 h2 {
+    font-size: 2.4rem;
+    color: red;
+}
+.col-md-12 p {
+    text-align: center;
+}
+
+/*--- Contact Section ---*/
+footer {
+    background-color:yellow;
+    color: black;
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+}
+footer img {
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+footer a {
+    color: white;
+}
+  footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover {
+    color: #1ebba3!important;
+}
+hr.socket {
+    max-width: 100%;
+    border-top: .2rem solid red;
+    margin-top: 3rem;
+}
+.fixed-background1 {
+    background-image: url(img/green-pine-trees-1179229.jpg);
+    text-align: center;
+    background-size: contain;
+    background-position: center;
+    font-family: 'Lato', sans-serif;

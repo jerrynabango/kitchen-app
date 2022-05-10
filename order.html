@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/order.css" rel="stylesheet" type="text/css" />
+    <title>Order</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="home">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand" href="#"><img src="img/food1.png" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggler="collapse"
+            data-target="#navbarResponsive"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="order.html">ORDER</a></li>
+              <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row padding welcome text-center hr-black">
+        <div class="col-12">
+          <h1 class="display-4">Fast Food App</h1>
+        </div>
+        <hr />
+        <div class="col-12">
+          <p class="lead">
+            Place your order here and we'll make you your desired meal.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--order-->
+    <div class="container">
+      <form id="myForm">
+        <div id="new-designs">
+          <div class="new-design">
+            <div class="meal-design-form">
+              <div class="row padding">
+                <div class="col-12 text-right">
+                  <span class="removeOrder"
+                    ><span class="fa fa-times-circle"></span
+                  ></span>
+                </div>
+              </div>
+              <div class="row">
+                <!--Snacks-->
+                <div class="col-12 col-md-6">
+                  <h4>Snacks</h4>
+                  <table class="table table-borderless table-hover table-sm">
+                    <thead>
+                      <th scope="col">Snack</th>
+                      <th scope="col">Price</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input type="checkbox" name="snack" value="Cake" />
+                            <label>Cake</label>
+                          </div>
+                        </td>
+                        <td>50</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input type="checkbox" name="snack" value="Bread" />
+                            <label>Bread</label>
+                          </div>
+                        </td>
+                        <td>30</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input
+                              type="checkbox"
+                              name="snack"
+                              value="Mandazi"
+                            />
+                            <label>Mandazi</label>
+                          </div>
+                        </td>
+                        <td>20</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input
+                              type="checkbox"
+                              name="snack"
+                              value="Samosa"
+                            />
+                            <label>Samosa</label>
+                          </div>
+                        </td>
+                        <td>40</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input type="checkbox" name="snack" value="Kebab" />
+                            <label>Kebab</label>
+                          </div>
+                        </td>
+                        <td>70</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--Drinks-->
+                <div class="col-12 col-md-6">
+                  <h4>Drinks</h4>
+                  <table class="table table-borderless table-hover table-sm">
+                    <thead>
+                      <th scope="col">Drink</th>
+                      <th scope="col">Price</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input type="checkbox" name="drink" value="Soda" />
+                            <label>Soda</label>
+                          </div>
+                        </td>
+                        <td>30</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input type="checkbox" name="drink" value="Water" />
+                            <label>Water</label>
+                          </div>
+                        </td>
+                        <td>30</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input type="checkbox" name="drink" value="Tea" />
+                            <label>Tea</label>
+                          </div>
+                        </td>
+                        <td>20</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input
+                              type="checkbox"
+                              name="drink"
+                              value="Coffee"
+                            />
+                            <label>Coffee</label>
+                          </div>
+                        </td>
+                        <td>20</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input type="checkbox" name="drink" value="Juice" />
+                            <label>Mango juice</label>
+                          </div>
+                        </td>
+                        <td>30</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--Stew-->
+                <div class="col-12 col-md-6">
+                  <h4>Stew</h4>
+                  <table class="table table-borderless table-hover table-sm">
+                    <thead>
+                      <th scope="col">Stew</th>
+                      <th scope="col">Price</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input type="checkbox" name="stew" value="Beef" />
+                            <label>Beef</label>
+                          </div>
+                        </td>
+                        <td>100</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input
+                              type="checkbox"
+                              name="stew"
+                              value="Chicken"
+                            />
+                            <label>Chicken</label>
+                          </div>
+                        </td>
+                        <td>120</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input type="checkbox" name="stew" value="Beans" />
+                            <label>Beans</label>
+                          </div>
+                        </td>
+                        <td>50</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input type="checkbox" name="stew" value="Ndengu" />
+                            <label>Ndengu</label>
+                          </div>
+                        </td>
+                        <td>50</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input type="checkbox" name="stew" value="Peas" />
+                            <label>Peas</label>
+                          </div>
+                        </td>
+                        <td>60</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--Served with-->
+                <div class="col-12 col-md-6">
+                  <h4>Served with</h4>
+                  <table class="table table-borderless table-hover table-sm">
+                    <thead>
+                      <th scope="col">Serving</th>
+                      <th scope="col">Price</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input
+                              type="checkbox"
+                              name="serving"
+                              value="Rice"
+                            />
+                            <label>Rice</label>
+                          </div>
+                        </td>
+                        <td>40</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input
+                              type="checkbox"
+                              name="serving"
+                              value="Chips"
+                            />
+                            <label>Chips</label>
+                          </div>
+                        </td>
+                        <td>100</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input
+                              type="checkbox"
+                              name="serving"
+                              value="Chapati"
+                            />
+                            <label>Chapati</label>
+                          </div>
+                        </td>
+                        <td>40</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input
+                              type="checkbox"
+                              name="serving"
+                              value="Ugali"
+                            />
+                            <label>Ugali</label>
+                          </div>
+                        </td>
+                        <td>40</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input
+                              type="checkbox"
+                              name="serving"
+                              value="Potatoes"
+                            />
+                            <label>Mashed Potatoes</label>
+                          </div>
+                        </td>
+                        <td>60</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-12 col-md-6">
+                  <h4>Greens</h4>
+                  <table class="table table-borderless table-hover table-sm">
+                    <thead>
+                      <th scope="col">Greens</th>
+                      <th scope="col">Price</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input
+                              type="checkbox"
+                              name="greens"
+                              value="Spinach"
+                            />
+                            <label>Spinach</label>
+                          </div>
+                        </td>
+                        <td>20</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input
+                              type="checkbox"
+                              name="greens"
+                              value="Cabbage"
+                            />
+                            <label>Cabbage</label>
+                          </div>
+                        </td>
+                        <td>10</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input
+                              type="checkbox"
+                              name="greens"
+                              value="Sukuma"
+                            />
+                            <label>Sukuma Wiki</label>
+                          </div>
+                        </td>
+                        <td>10</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="form-group form-check">
+                            <input
+                              type="checkbox"
+                              name="greens"
+                              value="Traditional"
+                            />
+                            <label>Traditional</label>
+                          </div>
+                        </td>
+                        <td>20</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-buttons">
+          <div class="row">
+            <div class="col-12 text-center">
+              <button
+                type="button"
+                class="btn btn-outline-secondary"
+                id="addMeal"
+              >
+                <span class="fa fa-plus"></span> Add Meal
+              </button>
+              <button type="submit" class="btn btn-secondary checkoutHide">
+                <span class="fa fa-cart-arrow-down"></span> Checkout
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!--Order Summary-->
+    <div class="container yourOrder">
+      <div class="row padding"></div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <h3>Order Summary</h3>
+        </div>
+      </div>
+      <div class="row orderSummary padding">
+        <!--orders display here-->
+      </div>
+    </div>
+    <!--footer-->
+    <footer>
+      <div class="container-fluid">
+        <div id="contact" class="offset">
+          <footer>
+            <div class="row justify-content-center">
+              <div class="col-md-12 text-center">
+                <img src="img/food1.png" />
+                <p>Fast Food App.</p>
+                <strong>Contact Info</strong>
+                <p>For any issues or order,contact us through</p>
+                <p>+254 76666666</p>
+                <p>Email our CEO and Founder</p>
+                <p>fastfoodapp6@gmail.com</p>
+                <div class="contact">
+                  <a class="contact" href="#"
+                    ><img src="img/social/social1.png"
+                  /></a>
+                  <a class="contact" href="#"
+                    ><img src="img/social/social2.png"
+                  /></a>
+                  <a class="contact" href="#"
+                    ><img src="img/social/social3.png"
+                  /></a>
+                  <a class="contact" href="#"
+                    ><img src="img/social/social4.png"
+                  /></a>
+                  <a class="contact" href="#"
+                    ><img src="img/social/social5.png"
+                  /></a>
+                </div>
+                <hr class="socket" />
+                Meal Group Company<br />
+                P.O BOX: 999666,Nairobi,Kenya.<br />
+                Copyright&copy;2020.All rights reserved.
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

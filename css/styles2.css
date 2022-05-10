@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+body {
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+/*--- Nav Section ---*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background: rgba(0, 0, 0, 0.6) !important;
+  color: white;
+}
+.navbar-brand img {
+  height: 2rem;
+}
+.navbar-nav li {
+  padding-right: 0.7rem;
+  text-decoration: none;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: gold;
+}
+.home-inner {
+  background-image: url(../img/burger-and-vegetables-placed-on-brown-wood-surface-1565982.jpg);
+}
+.home-inner1 {
+  background-image: url(../img/image-asset.);
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 0.3rem;
+  color: gold;
+}
+.caption p {
+  font-size: 1.4rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+  color: red;
+}
+#state {
+  font-weight: bolder;
+  font-style: italic;
+  font-family: cursive;
+  text-shadow: 0 0 10px #cb4335;
+}
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  margin: 1rem;
+  color: black;
+  background-color: yellow;
+  border-color: red;
+}
+.btn-secondary:hover {
+  color: white;
+  background-color: red;
+  border-color: yellow;
+}
+.col-md-12 {
+  margin: 1.5rem;
+  padding-top: 2rem;
+}
+.col-md-12 h2 {
+  font-size: 2.4rem;
+  color: red;
+}
+.col-md-12 p {
+  text-align: center;
+}
+/*--- Form Section ---*/
+textarea {
+  resize: none;
+}
+
+form {
+  text-align: left;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+button {
+  color: black !important;
+}
+
+.jaza {
+  display: none;
+}
+
+.pass {
+  padding-bottom: 40px;
+}
+/*--- Menu Section ---*/
+#dish1:hover,
+#dish2:hover,
+#dish3:hover,
+#dish4:hover,
+#dish5:hover,
+#dish6:hover,
+#dish7:hover,
+#dish8:hover,
+#dish9:hover,
+#dish10:hover,
+#dish11:hover,
+#dish12:hover,
+#dish13:hover,
+#dish14:hover,
+#dish15:hover,
+#dish16:hover,
+#dish17:hover,
+#dish18:hover,
+#dish19:hover,
+#dish20:hover,
+#dish21:hover,
+#dish22:hover,
+#dish23:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.para1,
+.para2,
+.para3,
+.para4,
+.para5,
+.para6,
+.para7,
+.para8,
+.para9,
+.para10,
+.para11,
+.para12,
+.para13,
+.para14,
+.para15,
+.para16,
+.para17,
+.para18,
+.para19,
+.para20,
+.para21,
+.para22,
+.para23 {
+  padding-top: 50px;
+  display: none;
+  font-style: italic;
+  color: #f7dc6f;
+}
+#par1,
+#par2,
+#par3,
+#par4,
+#par5,
+#par6,
+#par7,
+#par8,
+#par9,
+#par10,
+#par11,
+#par12,
+#par13,
+#par14,
+#par15,
+#par16,
+#par17,
+#par18,
+#par19,
+#par20,
+#par21,
+#par22,
+#par23 {
+  padding-top: 25px;
+  font-style: "Lato", sans-serif;
+  color: black;
+}
+/*--- Contact Section ---*/
+footer {
+  background-color: yellow;
+  color: black;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+footer a {
+  color: white;
+}
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem 0.5rem 0 0;
+}
+footer svg.svg-inline--fa:hover {
+  color: #1ebba3 !important;
+}
+hr.socket {
+  max-width: 100%;
+  border-top: 0.2rem solid red;
+  margin-top: 3rem;
+}
+.fixed-background1 {
+  background-image: url(../img/green-pine-trees-1179229.jpg);
+  text-align: center;
+  background-size: contain;
+  background-position: center;
+  font-family: "Lato", sans-serif;
+}
